@@ -85,4 +85,6 @@ uint32_t dcache_access(uint32_t addr);
 //
 uint32_t l2cache_access(uint32_t addr);
 
+void freeCaches();
+
 #endif
